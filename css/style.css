@@ -191,6 +191,14 @@ nav .third_section .options{
     border-radius: 20px;
 }
 
+/* .featured_styles_second .big_feature img{
+    transition: all 0.4s;
+} */
+
+.featured_styles_second .big_feature:hover img:nth-child(2){
+    opacity: 0;
+}
+
 .featured_styles_second .big_feature .overlay button{
     cursor: pointer;
     padding: 15px 20px;
